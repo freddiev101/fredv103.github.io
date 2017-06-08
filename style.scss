@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background image: http://www.planwallpaper.com/background-pattern#static/images/1619726.jpg;
+  font: 18px/1.4 $Arial;
+  color: $white;
 }
 
 .container {
@@ -30,9 +30,16 @@ body {
   width: 100%;
 }
 
+p.one {
+	border-style: dotted;
+	border-width: 10px;
+	border-colour: white;
+	border-radius: 8px;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $arial;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -45,23 +52,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
-}
-
-h3 {
   font-size: 20px;
 }
 
-h4 {
+h3 {
   font-size: 18px;
-  color: $gray;
+}
+
+h4 {
+  font-size: 16px;
+  color: inherit;
 }
 
 p {
